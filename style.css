@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 50px;
+    color: white;
+    background-color: brown;
+    text-decoration: underline;
+    padding-left: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+body{
+background-color: gray;
+
+}
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    width: 80%;
+    margin-left: 10%;
+    
+
+}
+.main-div > div{
+    width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+.main-div .news{
+   width: 400px;
+}
+
+.main-div .news-4{
+   width: 400px;
+}
+.main-div .news-3{
+   width: 400px;
+}
+.main-div .news-6{
+   width: 400px;
+}
+.main-div .news-7{
+   width: 400px;
+}
+
+.main-div > div:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+ .news p{
+    display: none;
+ }
+ .news:hover p{
+    display: block;
+ }
+ .news-1 p{
+    display: none;
+ }
+ .news-1:hover p{
+    display: block;
+ }
+ .news-2 p{
+    display: none;
+ }
+ .news-2:hover p{
+    display: block;
+ }
+ .news-3 p{
+    display: none;
+ }
+ .news-3:hover p{
+    display: block;
+ }
+ .news-4 p{
+    display: none;
+ }
+ .news-4:hover p{
+    display: block;
+ }
+ .news-5 p{
+    display: none;
+ }
+ .news-5:hover p{
+    display: block;
+ }
+ .news-6 p{
+    display: none;
+ }
+ .news-6:hover p{
+    display: block;
+ }
+ .news-7 p{
+    display: none;
+ }
+ .news-7:hover p{
+    display: block;
+ }
+ .news-8 p{
+   display: none;
+}
+.news-8:hover p{
+   display: block;
+}
+ 
+.news{
+background: url(img.jpg);
+background-size: cover;
+
+}
+.news-1{
+    background: url(img-1.jpg);
+    background-size: cover;
+    }
+    .news-2{
+        background: url(img-2.jpg);
+    background-size: cover; 
+    }
+    .news-3{
+        background: url(img-3.jpg);
+    background-size: cover; 
+    
+    }
+    .news-4{
+        background: url(img-4.png);
+    background-size: cover; 
+    
+    }
+    .news-5{
+        background: url(img-5.jpg);
+    background-size: cover; 
+    }
+    .news-6{
+        background: url(img-6.jpg);
+    background-size: cover; 
+    }
+    .news-7{
+        background: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1v78rV.img?w=768&h=432&m=6);
+    background-size: cover; 
+    }
+    .news-8{
+      background: url(img-8.jpg);
+      background-size: cover;
+    }
+.main-div a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
